@@ -1,7 +1,7 @@
 import { GridColDef } from '@mui/x-data-grid';
 import DataTable from '../../components/dataTable/DataTable'
 import './users.scss'
-import { userRows } from '../../data';
+// import { userRows } from '../../data';
 import { useState } from 'react';
 import Add from '../../components/add/Add';
 import { useQuery } from 'react-query';

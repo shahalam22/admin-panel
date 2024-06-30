@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './products.scss'
 import DataTable from '../../components/dataTable/DataTable';
 import Add from '../../components/add/Add';
-import { products } from '../../data';
+// import { products } from '../../data';
 import { GridColDef } from '@mui/x-data-grid';
 import { useQuery } from 'react-query';
 
