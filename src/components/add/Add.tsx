@@ -17,7 +17,7 @@ const Add = (props:Props) => {
 
     const mutation = useMutation({
         mutationFn: () => {
-                return fetch(`https://admin-panel-backend-c1yy.onrender.com/${props.slug}s`, {
+                return fetch(`https://admin-panel-backend-c1yy.onrender.com/api/${props.slug}s`, {
                     method: "post",
                     headers: {
                         Accept: "application/json",

@@ -57,7 +57,7 @@ const columns: GridColDef[] = [
 
 
 const fetchPosts = async () => {
-  const response = await fetch("https://admin-panel-backend-c1yy.onrender.com/users");
+  const response = await fetch("https://admin-panel-backend-c1yy.onrender.com/api/users");
   return response.json();
 };
 

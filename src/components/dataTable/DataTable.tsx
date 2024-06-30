@@ -17,7 +17,7 @@ const DataTable = (props:Props) => {
 
     const mutation = useMutation({
         mutationFn: (id: number) => {
-                return fetch(`https://admin-panel-backend-c1yy.onrender.com/${props.slug}/${id}`, {
+                return fetch(`https://admin-panel-backend-c1yy.onrender.com/api/${props.slug}/${id}`, {
                     method: "delete",
             });
         },
