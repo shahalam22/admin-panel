@@ -56,7 +56,7 @@ const columns: GridColDef[] = [
 ];
 
 const fetchPosts = async () => {
-  const response = await fetch("http://localhost:8800/api/products");
+  const response = await fetch("https://admin-panel-backend-c1yy.onrender.com/products");
   return response.json();
 };
 
