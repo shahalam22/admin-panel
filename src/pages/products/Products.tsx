@@ -56,7 +56,7 @@ const columns: GridColDef[] = [
 ];
 
 const fetchPosts = async () => {
-  const response = await fetch("https://admin-panel-backend-c1yy.onrender.com/api/products");
+  const response = await fetch("https://admin-panel-saa21.netlify.app/api/products");
   return response.json();
 };
 
